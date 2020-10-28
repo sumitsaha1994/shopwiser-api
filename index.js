@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.status(200).send("<h1>Welcome to shopwiser api-</h1>");
+    res.status(200).send("<h1>Welcome to shopwiser api :)</h1>");
 });
 
 app.listen(process.env.PORT || 5000, () => {
